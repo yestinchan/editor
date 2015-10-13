@@ -2,6 +2,8 @@
 
 > A markdown editor you really want.
 
+**NOTICE**: [@NextStepWebs](https://github.com/NextStepWebs/) has created [an improved markdown editor based on this project](https://github.com/NextStepWebs/simplemde-markdown-editor/)
+
 ## Overview
 
 Editor is not a WYSIWYG editor, it is a plain text markdown editor. Thanks for the great project [codemirror](http://codemirror.net/), without which editor can never be created.
@@ -98,8 +100,8 @@ The `Editor` Class accepts an option as the parameter. The supported options are
 Example:
 ```JavaScript
 new Editor({
-  element: '#editor',
-  tools: false
+  element: document.getElementById('editor'),
+  toolbar: []
 })
 ```
 
